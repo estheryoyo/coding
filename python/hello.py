@@ -1,0 +1,11 @@
+name = input('Name:')
+num = input('Id:')
+x = input ('score_1:')
+y = input ('score_2:')
+z = input ('score_3:')
+sum = int(x) + int(y) + int(z)
+
+print('Name:',name,sep='')
+print('Id:',num,sep='')
+print('Total:',sum,sep='')
+print('Average:',sum // 3,sep='')

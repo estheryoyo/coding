@@ -1,0 +1,13 @@
+num1 = input()
+num2 = input()
+num1 = int(num1)
+num2 = int(num2)
+plu = num1 + num2
+dif = abs(num1 - num2)
+pro = num1 * num2
+cal = num1 / num2
+quo = int ((cal * 100))/100
+print("Sum:%.2f"% plu,sep=' ')
+print("Difference:%.2f"% dif,sep=' ')
+print("Product:%.2f"% pro,sep=' ')
+print("Quotient:%.2f"% quo,sep=' ')
